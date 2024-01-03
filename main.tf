@@ -12,13 +12,13 @@ terraform {
       source  = "hashicorp/azurerm"
     }
   }
+}
 
-  provider "azurerm" {
-    features {}
-  }
+provider "azurerm" {
+  features {}
+}
 
-  resource "azurerm_resource_group" "rg" {
-    location = "France Central"
-    name     = "tf-test-github-actions"
-  }
+resource "azurerm_resource_group" "rg" {
+  location = "France Central"
+  name     = "tf-test-github-actions"
 }
