@@ -10,3 +10,12 @@ Un serveur applicatif accessible en SSH seulement depuis le bastion
 IMDSv2 forcé sur toutes les instances
 
 Gestion déclarative et reproductible via Terraform
+
+## Prérequis
+AWS CLI installé et configuré
+
+Terraform (v1.0+) installé
+
+Une paire de clés SSH générée localement (ssh-keygen)
+
+Un compte AWS avec les droits nécessaires pour créer VPC, EC2, IAM, etc.
