@@ -19,3 +19,15 @@ Terraform (v1.0+) installé
 Une paire de clés SSH générée localement (ssh-keygen)
 
 Un compte AWS avec les droits nécessaires pour créer VPC, EC2, IAM, etc.
+
+## Structure 
+
+infra/
+├─ provider.tf
+├─ variables.tf
+├─ main.tf
+├─ outputs.tf
+└─ modules/
+   └─ vpc/
+   └─ bastion/
+   └─ backend/
